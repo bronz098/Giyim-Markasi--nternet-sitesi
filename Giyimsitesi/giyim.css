@@ -1,0 +1,103 @@
+body
+{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+  
+}
+.menü
+{
+    width: 100%;
+    height: 140px;
+}
+   ul {
+      
+        list-style-type: none;
+        margin: 5;
+        padding: 10;
+        overflow: hidden;
+    }
+    
+    li {
+        float:left;
+    }
+    
+    li a {
+        position: relative;
+        margin: auto;
+        display: block;
+        padding: 15px 130px;
+        background-color: #ccc;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    li a:hover {
+        background-color: #888888;
+        color: white;
+    }
+    
+    .aktif {
+        background-color: #1A3680;
+        color: white;
+    }
+    .ürünler
+    {
+      text-align: center;
+      position: relative;
+        font-size: x-large;
+        font-style: normal;
+        color:#1A3680;
+    }
+ .kutu
+ {
+    
+    width: 200px;
+    padding: 45px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px;
+    margin: 50px;
+    position: relative;
+    float: left; 
+    color: #1A3680;
+    
+   
+
+ }
+ 
+.kutu:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+     transform: scale(1.3); 
+   }
+  .footer
+  {
+    float: left;
+
+    background-color: #1A3680;
+    width: 100%;
+    height: 80px; 
+    color: white;
+
+  }
+
+  
+  
+  .reklamlar
+{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    margin: 15px;
+    float: left;
+    color: #1A3680;
+    
+    
+}
+.reklamlar:hover
+{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+     transform: scale(1.3); 
+}
